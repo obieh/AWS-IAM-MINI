@@ -14,4 +14,41 @@
 
 
 ## IAM Group
-### IAM users represent individuals or applications on AWS, accessing resources through the console or programmatically. They have access to resources, and their permissions can be set individually or in groups. IAM groups are collections of users with shared access control policies.
+### IAM groups are collections of users with shared access control policies.These policies define what actions the group members are allowed to perform on specific objects within the group’s scope. For example, let’s say you have a group called “Developers.” In the group’s access control policy, you grant read-only access to all of your EC2 instances. Now, any user added to the “Developers” group will automatically have the permission to view information about those EC2 instances, but they won’t have permission to make any changes to them.
+
+## IAM Users
+### IAM users are like representatives for people or applications using AWS. They can access AWS through the console or programmatically. IAM users help manage access to AWS resources securely, and you can set permissions for them individually or in groups. They have names and passwords for console access and can create access keys for programmatic access. IAM users ensure only authorized users and apps can access your AWS resources.
+
+## Create EC2 Full Access Policy for Eric.
+
+* Head over to your AWS GUI and search for IAM using the search bar. Click on IAM.
+
+![](./img/Pasted%20image.png)
+
+* On the IAM dashboard, navigate to the left sidebar and click 'Policies'
+
+![](./img/Pasted%20image%20(2).png)
+
+* Search for 'EC2' then select 'AmazonFullAccess' form the policies list and click 'Create policy'
+
+![](./img/Pasted%20image%20(3).png)
+
+* Check 'All EC2 actions (ec2*)' under 'Manual actions'
+
+![](./img/Pasted%20image%20(4).png)
+
+* On the 'Resources' section select 'All' and click 'Next' at the bottom right of the page.
+
+![](./img/Pasted%20image%20(5).png)
+
+* Add a name for the policy, optional description and click 'create policy'
+
+![](./img/Pasted%20image%20(6).png)
+
+* A success page should appear if the policy creation was successful
+
+![](./img/Pasted%20image%20(7).png)
+
+* Use "Filter by Type" select "Customer managed" to see the policy created for Eric.
+
+![](./img/Pasted%20image%20(8).png)
