@@ -127,4 +127,19 @@
 
 ![](./img/Pasted%20image%20(24).png)
 
-* Type-in a user name (Ade) and click next
+* Type-in a user name (Ade) and click 'next'.
+
+![](./img/Pasted%20image%20(25).png)
+
+* In the permission sector click, Select 'Add user to group', check the dev-team group you have just create and click 'next'.
+
+![](./img/Pasted%20image%20(26).png)
+
+* Review and click 'Create user'.
+
+![](./img/Pasted%20image%20(27).png)
+
+* A success page shows up confirming user account was created successfully.
+
+![](./img/Pasted%20image%20(28).png)
+
