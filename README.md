@@ -52,3 +52,17 @@
 * Use "Filter by Type" select "Customer managed" to see the policy created for Eric.
 
 ![](./img/Pasted%20image%20(8).png)
+
+## Create User
+* Head over to the 'Users' section and click 'Create user'
+
+![](./img/Pasted%20image%20(9).png)
+
+* Enter a username, setup user password, check 'user must change password at next sign-in'. this allows the user to change the password you setup while creating the account. Click 'Next'.
+
+![](./img/Pasted%20image%20(10).png)
+
+* Sellect 'Attach policies directly' on the permissions tab. Select the policy created earlier 'Policy_for_Eric' and click 'Nect'.
+
+![](./img/Pasted%20image%20(11).png)
+
