@@ -66,3 +66,40 @@
 
 ![](./img/Pasted%20image%20(11).png)
 
+* Review and click 'Create user' bottom left.
+
+![](./img/Pasted%20image%20(12).png)
+
+* The next page should show that you have successlick 'Download .csv file' to download user details in .csv format.
+
+![](./img/Pasted%20image%20(13).png)
+
+### AWS Policies: AWS has different policy types.
+* Managed Policies: These type of policies are made and managed by AWS for users to used.
+* Customer Managed: created and managed by user,you can create and manage them.
+* Inline policies are created for specific reasons
+
+## Create User Group.
+
+* Back to the IAM GUI click 'User groups'
+
+![](./img/Pasted%20image%20(15).png)
+
+* Add a Group name 'Dev-team'
+
+![](./img/Pasted%20image%20(16).png)
+
+* Scroll down and click 'Create user group'
+
+![](./img/Pasted%20image%20(17).png)
+
+* Dev-team group created successfully.
+
+![](./img/Pasted%20image%20(18).png)
+
+## Create User Jack
+
+* Back on the IAm GUI click Users.
+
+
+
