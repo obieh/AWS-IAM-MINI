@@ -143,3 +143,27 @@
 
 ![](./img/Pasted%20image%20(28).png)
 
+## Creating Policies
+* Head over to the policies section of the IAM page and click create policy.
+
+![](./img/Pasted%20image%20(29).png)
+
+* Select S3 and EC2 services. be sure to select 'All EC2 actiona' and 'All S3 actions' respectively.
+
+![](./img/Pasted%20image%20(30).png)
+
+![](./img/Pasted%20image%20(31).png)
+
+* Click 'next' to continue.
+
+![](./img/Pasted%20image%20(32).png)
+
+* Add a name to the policy. Add suitable description for the policy. You should see permissions defined for both EC2 and S3. click 
+
+![](./img/Pasted%20image%20(34).png)
+
+* You should now see a page indicatitng  is that policy was created successfully.
+
+![](./img/Pasted%20image%20(7).png)
+
+
