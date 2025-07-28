@@ -190,4 +190,8 @@
 
 ![](./img/Pasted%20image%20(41).png)
 
+## Reflections
+* IAM serves as the security foundation for AWS resources, controlling access and permissions.
+* IAM ensures data protection, compliance, and prevents authorized access.
+* IAM policies regulates resource access effectively.
 
