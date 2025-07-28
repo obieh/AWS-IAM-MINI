@@ -166,4 +166,28 @@
 
 ![](./img/Pasted%20image%20(7).png)
 
+* Go over to user groups on IAM GUI.
+
+![](./img/Pasted%20image%20(36).png)
+
+* Click on the Dev-team group which has undefined permissions and click the permissions tab.
+
+![](./img/Pasted%20image%20(37).png)
+
+* Now click on 'add permissions' drop and select 'Attach policies'.
+
+![](./img/Pasted%20image%20(38).png)
+
+* Click 'Filter by Type' ans select 'Customer managed'. This will filter out all AWS managed policies and leave only policies you have created.
+
+![](./img/Pasted%20image%20(39).png)
+
+* Check the just created dev-team-policy and click 'Attach policies'.
+
+![](./img/Pasted%20image%20(40).png)
+
+* A success page should pop up to confirm that the policy has been assigned a user group.
+
+![](./img/Pasted%20image%20(41).png)
+
 
